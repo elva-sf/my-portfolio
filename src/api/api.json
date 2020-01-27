@@ -1,0 +1,51 @@
+[
+  {
+    "proyect": "#CodeLike<a>Girl",
+    "description": "Creación de página web colaborativa a modo CV online",
+    "image": "",
+    "date": "Noviembre 2019",
+    "main-tool": "HTML5 & CSS3 (SASS)"
+  },
+  {
+    "proyect": "Anonymous Blog",
+    "description": "Práctica de hacer una página web tipo blog",
+    "image": "",
+    "date": "Noviembre 2019",
+    "main-tool": "HTML5 & CSS3 (SASS)"
+  },
+  {
+    "proyect": "Awesome Profile Cards",
+    "description": "Creación de página web colaborativa para generar tarjetas de visita digitales",
+    "image": "",
+    "date": "Diciembre 2019",
+    "main-tool": "JavaScript"
+  },
+  {
+    "proyect": "Buscador de Series",
+    "description": "Práctica de hacer una página web tipo buscador de series utilizando JS",
+    "image": "",
+    "date": "",
+    "main-tool": "JavaScript"
+  },
+  {
+    "proyect": "Tarjetas Pokémon",
+    "description": "Práctica de pintar tarjetas obteniendo sus datos de una API",
+    "image": "",
+    "date": "Diciembre 2019",
+    "main-tool": "React"
+  },
+  {
+    "proyect": "Awesome Profile Cards (refactorizado con REACT)",
+    "description": "Proyecto de código heredado. Migración del código del proyecto 'Awesome Profile Cards' a React",
+    "image": "",
+    "date": "Enero 2020",
+    "main-tool": "React"
+  },
+  {
+    "proyect": "Tarjetas Rick&Morty",
+    "description": "Práctica de hacer una página web tipo buscador de personajes para pintar sus tarjetas obteniendo sus datos de una API",
+    "image": "",
+    "date": "Enero 2020",
+    "main-tool": "React"
+  }
+]
