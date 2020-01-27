@@ -20,7 +20,7 @@ function Proyects(props) {
                 <li className="proyectList__itemPro" key={proyect.id}>
                   <img
                     className="proyectList__imagePro"
-                    src={`${proyect.image}`}
+                    src={require(`../images/${proyect.image}`)}
                     alt=""
                   />
                   <h4 className="proyectList__titlePro">{proyect.proyect}</h4>
