@@ -51,6 +51,7 @@ function Footer() {
             </li>
           </ul>
         </nav>
+        <span>© 2020 Elva Souto Fedz</span>
       </footer>
     </React.Fragment>
   );
