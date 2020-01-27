@@ -1,5 +1,6 @@
 import React from "react";
 import "../stylesheet/Proyects.scss";
+/* import image from "../images/codeLikeAGirl.png"; */
 
 function Proyects(props) {
   return (
@@ -11,6 +12,7 @@ function Proyects(props) {
             Muy "proud" de mis proyectos y ejercicios que he realizado hasta
             ahora!! :)
           </p>
+          {/* <img src={image} alt="" /> */}
           <ul className="section__list proyectList">
             {props.proyects.map(proyect => {
               console.log(proyect.image);
