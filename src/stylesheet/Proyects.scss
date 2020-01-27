@@ -10,4 +10,28 @@
   &__text {
     color: rgb(126, 0, 78);
   }
+  &__list {
+    list-style: none;
+  }
+}
+
+.proyectList {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  &__itemPro {
+  }
+  &__imagePro {
+    width: 300px;
+    height: 200px;
+    border: solid 5px rgb(34, 10, 10);
+  }
+  &__titlePro {
+  }
+  &__descriptPro {
+  }
+  &__datePro {
+  }
 }

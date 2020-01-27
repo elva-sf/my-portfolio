@@ -2,50 +2,64 @@
   {
     "proyect": "#CodeLike<a>Girl",
     "description": "Creación de página web colaborativa a modo CV online",
-    "image": "",
+    "id": "01",
+    "image": "http://localhost:3000/static/media/codeLikeAGirl.1d795191.png",
     "date": "Noviembre 2019",
-    "main-tool": "HTML5 & CSS3 (SASS)"
+    "main-tool": "HTML5 & CSS3 (SASS)",
+    "link": "http://beta.adalab.es/project-promo-h-module-1-team-1-morning/"
   },
   {
     "proyect": "Anonymous Blog",
     "description": "Práctica de hacer una página web tipo blog",
-    "image": "",
+    "id": "02",
+    "image": "http://localhost:3000/static/media/anonymousBlog.03b5c05c.png",
     "date": "Noviembre 2019",
-    "main-tool": "HTML5 & CSS3 (SASS)"
+    "main-tool": "HTML5 & CSS3 (SASS)",
+    "link": "http://beta.adalab.es/evaluacion-final-modulo-1-elva-sf/"
   },
   {
     "proyect": "Awesome Profile Cards",
     "description": "Creación de página web colaborativa para generar tarjetas de visita digitales",
-    "image": "",
+    "id": "03",
+    "image": "http://localhost:3000/static/media/aweProCards.8fc6db14.png",
     "date": "Diciembre 2019",
-    "main-tool": "JavaScript"
+    "main-tool": "JavaScript",
+    "link": "http://beta.adalab.es/project-promo-h-module-2-team-2-morning/"
   },
   {
     "proyect": "Buscador de Series",
     "description": "Práctica de hacer una página web tipo buscador de series utilizando JS",
-    "image": "",
+    "id": "04",
+    "image": "http://localhost:3000/static/media/buscadorSeries.ef1c0343.png",
     "date": "",
-    "main-tool": "JavaScript"
+    "main-tool": "JavaScript",
+    "link": "http://beta.adalab.es/modulo-2-evaluacion-final-elva-sf/"
   },
   {
     "proyect": "Tarjetas Pokémon",
     "description": "Práctica de pintar tarjetas obteniendo sus datos de una API",
-    "image": "",
+    "id": "05",
+    "image": "http://localhost:3000/static/media/listaDePokémon.1c2f9f9d.png",
     "date": "Diciembre 2019",
-    "main-tool": "React"
+    "main-tool": "React",
+    "link": "http://beta.adalab.es/modulo-3-evaluacion-intermedia-elva-sf/"
   },
   {
     "proyect": "Awesome Profile Cards (refactorizado con REACT)",
     "description": "Proyecto de código heredado. Migración del código del proyecto 'Awesome Profile Cards' a React",
-    "image": "",
+    "id": "06",
+    "image": "http://localhost:3000/static/media/aweProCardsReact.7c31090c.png",
     "date": "Enero 2020",
-    "main-tool": "React"
+    "main-tool": "React",
+    "link": "http://beta.adalab.es/project-promo-h-module-3-team-1-morning-react/"
   },
   {
     "proyect": "Tarjetas Rick&Morty",
-    "description": "Práctica de hacer una página web tipo buscador de personajes para pintar sus tarjetas obteniendo sus datos de una API",
-    "image": "",
+    "description": "Práctica de hacer una página web tipo buscador de personajes, que pinta sus tarjetas obteniendo sus datos de una API",
+    "id": "07",
+    "image": "http://localhost:3000/static/media/rick&morty.e63829dc.png",
     "date": "Enero 2020",
-    "main-tool": "React"
+    "main-tool": "React",
+    "link": "http://beta.adalab.es/modulo-3-evaluacion-final-elva-sf/"
   }
 ]
