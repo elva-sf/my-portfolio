@@ -7,6 +7,7 @@ import AboutMe from "./AboutMe";
 import Proyects from "./Proyects";
 import Contact from "./Contact";
 import Footer from "./Footer";
+import { Route, Switch } from "react-router-dom";
 
 class App extends React.Component {
   constructor(props) {
@@ -21,10 +22,20 @@ class App extends React.Component {
       <React.Fragment>
         <Header />
         <main>
-          <Home />
-          <AboutMe />
-          <Proyects proyects={this.state.proyects} />
-          <Contact />
+          <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route path="/about/:id">
+              <AboutMe />
+            </Route>
+            <Route path="/proyects/:id">
+              <Proyects proyects={this.state.proyects} />
+            </Route>
+            <Route path="/contact/:id">
+              <Contact />
+            </Route>
+          </Switch>
         </main>
         <Footer />
       </React.Fragment>
