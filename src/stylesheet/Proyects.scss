@@ -1,21 +1,13 @@
-.header {
+.section {
   border: solid 2px;
   text-align: center;
-  background-color: rgb(126, 0, 78);
-}
-.nav {
-  background-color: antiquewhite;
-}
-.navList {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  &__item {
-    list-style: none;
+  &__box {
+    background-color: rgba(195, 233, 138, 0.425);
   }
-  &__link {
-    margin: 15px;
-    text-decoration: none;
+  &__title {
+    color: black;
+  }
+  &__text {
+    color: rgb(126, 0, 78);
   }
 }

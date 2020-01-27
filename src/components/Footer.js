@@ -39,19 +39,8 @@ function Footer() {
               </a>
             </li>
           </ul>
-          <ul className="footerNavList">
-            <li className="footerNavList__item">
-              <a
-                className="footerNavList__link"
-                href="mailto:e.souto.fernandez@gmail.com"
-                target="_blank"
-              >
-                <i className="footerNavList__icon fas fa-envelope"></i>
-              </a>
-            </li>
-          </ul>
         </nav>
-        <span>© 2020 Elva Souto Fedz</span>
+        <span>© 2020 Elva Souto Fernández</span>
       </footer>
     </React.Fragment>
   );
