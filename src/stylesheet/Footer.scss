@@ -1,0 +1,22 @@
+.footer {
+  border: solid 2px;
+  text-align: center;
+  background-color: rgb(126, 0, 78);
+}
+.footerNav {
+  background-color: antiquewhite;
+}
+.footerNavList {
+  display: inline-block;
+  margin: 10px auto;
+
+  &__item {
+    list-style: none;
+  }
+  &__link {
+    text-decoration: none;
+  }
+  &__icon {
+    color: green;
+  }
+}

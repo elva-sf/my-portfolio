@@ -1,0 +1,21 @@
+.header {
+  border: solid 2px;
+  text-align: center;
+  background-color: rgb(126, 0, 78);
+}
+.nav {
+  background-color: antiquewhite;
+}
+.navList {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  &__item {
+    list-style: none;
+  }
+  &__link {
+    margin: 15px;
+    text-decoration: none;
+  }
+}
