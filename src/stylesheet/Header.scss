@@ -4,7 +4,7 @@
   background-color: rgb(126, 0, 78);
 }
 .nav {
-  background-color: antiquewhite;
+  /* background-color: antiquewhite; */
 }
 .navList {
   display: flex;
@@ -17,5 +17,6 @@
   &__link {
     margin: 15px;
     text-decoration: none;
+    color: white;
   }
 }

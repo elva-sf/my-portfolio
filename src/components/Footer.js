@@ -40,7 +40,7 @@ function Footer() {
             </li>
           </ul>
         </nav>
-        <span>© 2020 Elva Souto Fernández</span>
+        <span className="footer__copyRight">© 2020 Elva Souto Fernández</span>
       </footer>
     </React.Fragment>
   );

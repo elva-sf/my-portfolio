@@ -2,9 +2,12 @@
   border: solid 2px;
   text-align: center;
   background-color: rgb(126, 0, 78);
+  &__copyRight {
+    color: white;
+  }
 }
 .footerNav {
-  background-color: antiquewhite;
+  /*  background-color: antiquewhite; */
 }
 .footerNavList {
   display: inline-block;
@@ -18,5 +21,7 @@
   }
   &__icon {
     color: green;
+    padding: 2px;
+    background-color: antiquewhite;
   }
 }
