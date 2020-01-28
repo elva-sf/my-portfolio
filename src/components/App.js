@@ -1,11 +1,11 @@
 import React from "react";
 import "../stylesheet/App.scss";
-import apiProyects from "../services/proyects.js";
+import apiProjects from "../services/projects.js";
 import Header from "./Header";
 import Home from "./Home";
 import AboutMe from "./AboutMe";
-import Proyects from "./Proyects";
-import ProyectDetail from "./ProyectDetail";
+import Projects from "./Projects";
+import ProjectDetail from "./ProjectDetail";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import { Route, Switch } from "react-router-dom";
@@ -14,26 +14,26 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      proyects: []
+      projects: []
     };
-    this.renderProyectDetail = this.renderProyectDetail.bind(this);
+    this.renderProjectDetail = this.renderProjectDetail.bind(this);
   }
 
   componentDidMount() {
-    apiProyects().then(proyects => {
+    apiProjects().then(projects => {
       this.setState({
-        proyects: proyects
+        projects: projects
       });
     });
   }
 
-  renderProyectDetail(props) {
+  renderProjectDetail(props) {
     const routeId = props.match.params.id;
-    const proyect = this.state.proyects.find(item => item.id === routeId);
-    if (proyect === undefined) {
+    const project = this.state.projects.find(item => item.id === routeId);
+    if (project === undefined) {
       return <p>Proyecto no encontrado o no existe</p>;
     } else {
-      return <ProyectDetail proyect={proyect} />;
+      return <ProjectDetail project={project} />;
     }
   }
 
@@ -49,12 +49,12 @@ class App extends React.Component {
             <Route path="/aboutme">
               <AboutMe />
             </Route>
-            <Route path="/proyects">
-              <Proyects proyects={this.state.proyects} />
+            <Route path="/projects">
+              <Projects projects={this.state.projects} />
             </Route>
             <Route
-              path="/proyectdetail/:id"
-              render={this.renderProyectDetail}
+              path="/projectdetail/:id"
+              render={this.renderProjectDetail}
             />
             <Route path="/contact">
               <Contact />

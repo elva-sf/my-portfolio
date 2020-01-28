@@ -1,19 +1,19 @@
 import React from "react";
-import "../stylesheet/Proyects.scss";
+import "../stylesheet/Projects.scss";
 import { Link } from "react-router-dom";
 
-function ProyectDetail(props) {
-  const { image, name, description, date, link } = props.proyect;
+function ProjectDetail(props) {
+  const { image, name, description, date, link } = props.project;
   return (
     <React.Fragment>
       <img
-        className="proyectList__imagePro"
+        className="projectList__imagePro"
         src={require(`../images/${image}`)}
         alt="Proyecto de Elva"
       />
-      <h4 className="proyectList__titlePro">{name}</h4>
-      <p className="proyectList__descriptPro">{description}</p>
-      <p className="proyectList__datePro">{date}</p>
+      <h4 className="projectList__titlePro">{name}</h4>
+      <p className="projectList__descriptPro">{description}</p>
+      <p className="projectList__datePro">{date}</p>
       <a
         className="section__link"
         href={link}
@@ -22,12 +22,12 @@ function ProyectDetail(props) {
       >
         {link}
       </a>
-      <Link to="/proyects">
-        <button type="button" className="proyectList__backButton">
+      <Link to="/projects">
+        <button type="button" className="projectList__backButton">
           <i className="far fa-hand-point-left"></i> Volver a Proyectos
         </button>
       </Link>
     </React.Fragment>
   );
 }
-export default ProyectDetail;
+export default ProjectDetail;
