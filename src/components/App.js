@@ -5,7 +5,7 @@ import Header from "./Header";
 import Home from "./Home";
 import AboutMe from "./AboutMe";
 import Proyects from "./Proyects";
-import ProyectItemDetail from "./ProyectItemDetail";
+import ProyectDetail from "./ProyectDetail";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import { Route, Switch } from "react-router-dom";
@@ -16,7 +16,7 @@ class App extends React.Component {
     this.state = {
       proyects: []
     };
-    this.renderProyectItemDetail = this.renderProyectItemDetail.bind(this);
+    this.renderProyectDetail = this.renderProyectDetail.bind(this);
   }
 
   componentDidMount() {
@@ -27,13 +27,13 @@ class App extends React.Component {
     });
   }
 
-  renderProyectItemDetail(props) {
+  renderProyectDetail(props) {
     const routeId = props.match.params.id;
     const proyect = this.state.proyects.find(item => item.id === routeId);
     if (proyect === undefined) {
       return <p>Proyecto no encontrado o no existe</p>;
     } else {
-      return <ProyectItemDetail proyect={proyect} />;
+      return <ProyectDetail proyect={proyect} />;
     }
   }
 
@@ -54,7 +54,7 @@ class App extends React.Component {
             </Route>
             <Route
               path="/proyectdetail/:id"
-              render={this.renderProyectItemDetail}
+              render={this.renderProyectDetail}
             />
             <Route path="/contact">
               <Contact />

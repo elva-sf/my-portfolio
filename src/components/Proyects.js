@@ -1,6 +1,6 @@
 import React from "react";
 import "../stylesheet/Proyects.scss";
-import ProyectItem from "./ProyectItem.js";
+import { Link } from "react-router-dom";
 
 function Proyects(props) {
   return (
@@ -13,9 +13,18 @@ function Proyects(props) {
         </p>
         <ul className="section__list proyectList">
           {props.proyects.map(proyect => {
+            const { id, image, name } = proyect;
+            const route = `/proyectdetail/${id}`;
             return (
               <li className="proyectList__itemPro" key={proyect.id}>
-                <ProyectItem proyect={proyect} key={proyect.id} />
+                <Link to={route}>
+                  <img
+                    className="proyectList__imagePro"
+                    src={require(`../images/${image}`)}
+                    alt="Proyecto de Elva"
+                  />
+                  <h4 className="proyectList__titlePro">{name}</h4>
+                </Link>
               </li>
             );
           })}

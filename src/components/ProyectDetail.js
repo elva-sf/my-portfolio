@@ -2,7 +2,7 @@ import React from "react";
 import "../stylesheet/Proyects.scss";
 import { Link } from "react-router-dom";
 
-function ProyectItemDetail(props) {
+function ProyectDetail(props) {
   const { image, name, description, date, link } = props.proyect;
   return (
     <React.Fragment>
@@ -30,4 +30,4 @@ function ProyectItemDetail(props) {
     </React.Fragment>
   );
 }
-export default ProyectItemDetail;
+export default ProyectDetail;
