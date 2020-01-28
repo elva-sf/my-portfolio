@@ -14,17 +14,17 @@ function Header() {
               </Link>
             </li>
             <li className="navList__item active" title="Sobre mi">
-              <Link to="/about/:id" className="navList__link">
+              <Link to="/aboutme" className="navList__link">
                 Conóceme
               </Link>
             </li>
             <li className="navList__item" title="Proyectos">
-              <Link to="/proyects/:id" className="navList__link">
+              <Link to="/proyects" className="navList__link">
                 Proyectos
               </Link>
             </li>
             <li className="navList__item" title="Contacto">
-              <Link to="/contact/:id" className="navList__link">
+              <Link to="/contact" className="navList__link">
                 Contacto
               </Link>
             </li>

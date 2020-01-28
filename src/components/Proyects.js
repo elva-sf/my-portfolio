@@ -1,5 +1,6 @@
 import React from "react";
 import "../stylesheet/Proyects.scss";
+import ProyectItem from "./ProyectItem.js";
 
 function Proyects(props) {
   return (
@@ -15,16 +16,7 @@ function Proyects(props) {
             {props.proyects.map(proyect => {
               return (
                 <li className="proyectList__itemPro" key={proyect.id}>
-                  <img
-                    className="proyectList__imagePro"
-                    src={require(`../images/${proyect.image}`)}
-                    alt=""
-                  />
-                  <h4 className="proyectList__titlePro">{proyect.name}</h4>
-                  <p className="proyectList__descriptPro">
-                    {proyect.description}
-                  </p>
-                  <span className="proyectList__datePro">{proyect.date}</span>
+                  <ProyectItem proyect={proyect} key={proyect.id} />
                 </li>
               );
             })}
