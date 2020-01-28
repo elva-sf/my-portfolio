@@ -1,5 +1,5 @@
 export default () => {
-  return fetch("https://localhost:3000/api/proyects.json")
+  return fetch("https://elva-sf.github.io/my-portfolio/api/proyects.json")
     .then(response => response.json())
     .then(responseData => responseData.proyects);
 };
