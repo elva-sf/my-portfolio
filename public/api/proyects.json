@@ -2,7 +2,7 @@
   "proyects": [
     {
       "name": "#CodeLike<a>Girl",
-      "description": "Creación de página web colaborativa a modo CV online",
+      "description": "Creación de página web colaborativa a modo CV online.",
       "id": "01",
       "image": "codeLikeAGirl.png",
       "date": "Noviembre 2019",
@@ -11,7 +11,7 @@
     },
     {
       "name": "Anonymous Blog",
-      "description": "Práctica de hacer una página web tipo blog",
+      "description": "Práctica de hacer una página web tipo blog.",
       "id": "02",
       "image": "anonymousBlog.png",
       "date": "Noviembre 2019",
@@ -20,7 +20,7 @@
     },
     {
       "name": "Awesome Profile Cards",
-      "description": "Creación de página web colaborativa para generar tarjetas de visita digitales",
+      "description": "Creación de página web colaborativa para generar tarjetas de visita digitales.",
       "id": "03",
       "image": "aweProCards.png",
       "date": "Diciembre 2019",
@@ -29,7 +29,7 @@
     },
     {
       "name": "Buscador de Series",
-      "description": "Práctica de hacer una página web tipo buscador de series utilizando JS",
+      "description": "Práctica de hacer una página web tipo buscador de series utilizando JS.",
       "id": "04",
       "image": "buscadorSeries.png",
       "date": "",
@@ -38,7 +38,7 @@
     },
     {
       "name": "Tarjetas Pokémon",
-      "description": "Práctica de pintar tarjetas obteniendo sus datos de una API",
+      "description": "Práctica de pintar tarjetas obteniendo sus datos de una API.",
       "id": "05",
       "image": "listaDePokémon.png",
       "date": "Diciembre 2019",
@@ -47,7 +47,7 @@
     },
     {
       "name": "Awesome Profile Cards (refactorizado con REACT)",
-      "description": "Proyecto de código heredado. Migración del código del proyecto 'Awesome Profile Cards' a React",
+      "description": "Proyecto de código heredado. Migración del código del proyecto 'Awesome Profile Cards' a React.",
       "id": "06",
       "image": "aweProCardsReact.png",
       "date": "Enero 2020",
@@ -55,8 +55,8 @@
       "link": "http://beta.adalab.es/project-promo-h-module-3-team-1-morning-react/"
     },
     {
-      "name": "Tarjetas Rick&Morty",
-      "description": "Práctica de hacer una página web tipo buscador de personajes, que pinta sus tarjetas obteniendo sus datos de una API",
+      "name": "Buscador de personajes Rick&Morty",
+      "description": "Práctica de hacer una página web tipo buscador de personajes, que pinta sus tarjetas obteniendo sus datos de una API.",
       "id": "07",
       "image": "rick&morty.png",
       "date": "Enero 2020",

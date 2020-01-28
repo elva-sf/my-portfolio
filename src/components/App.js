@@ -29,11 +29,9 @@ class App extends React.Component {
 
   renderProyectItemDetail(props) {
     const routeId = props.match.params.id;
-    const proyect = this.state.proyects.find(item => {
-      return item.id === routeId;
-    });
+    const proyect = this.state.proyects.find(item => item.id === routeId);
     if (proyect === undefined) {
-      return <p>El proyecto no existe/no encontrado</p>;
+      return <p>Proyecto no encontrado o no existe</p>;
     } else {
       return <ProyectItemDetail proyect={proyect} />;
     }

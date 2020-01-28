@@ -1,27 +1,32 @@
 import React from "react";
 import "../stylesheet/Proyects.scss";
+import { Link } from "react-router-dom";
 
 function ProyectItemDetail(props) {
-  console.log(props.proyect);
-
+  const { image, name, description, date, link } = props.proyect;
   return (
     <React.Fragment>
       <img
         className="proyectList__imagePro"
-        src={require(`../images/${props.proyect.image}`)}
-        alt=""
+        src={require(`../images/${image}`)}
+        alt="Proyecto de Elva"
       />
-      <h4 className="proyectList__titlePro">{props.proyect.name}</h4>
-      <p className="proyectList__descriptPro">{props.proyect.description}</p>
-      <p className="proyectList__datePro">{props.proyect.date}</p>
+      <h4 className="proyectList__titlePro">{name}</h4>
+      <p className="proyectList__descriptPro">{description}</p>
+      <p className="proyectList__datePro">{date}</p>
       <a
         className="section__link"
-        href={props.proyect.link}
+        href={link}
         target="_blank"
         rel="noopener noreferrer"
       >
-        {props.proyect.link}
+        {link}
       </a>
+      <Link to="/proyects">
+        <button type="button" className="proyectList__backButton">
+          <i className="far fa-hand-point-left"></i> Volver a Proyectos
+        </button>
+      </Link>
     </React.Fragment>
   );
 }
