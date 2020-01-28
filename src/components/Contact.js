@@ -14,6 +14,7 @@ function Contact() {
             className="section__link"
             href="mailto:e.souto.fernandez@gmail.com"
             target="_blank"
+            rel="noopener noreferrer"
           >
             e.souto.fernandez@gmail.com
           </a>

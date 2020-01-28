@@ -1,6 +1,6 @@
 import React from "react";
 import "../stylesheet/App.scss";
-import apiData from "../api/api.json";
+import apiProyects from "../services/proyects.js";
 import Header from "./Header";
 import Home from "./Home";
 import AboutMe from "./AboutMe";
@@ -13,11 +13,25 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      proyects: apiData
+      proyects: []
     };
   }
 
+  componentDidMount() {
+    apiProyects().then(proyects => {
+      this.setState({
+        proyects: proyects
+      });
+    });
+  }
+
+  renderProyectDetail(props) {
+    console.log(props);
+  }
+
   render() {
+    console.log(this.state);
+
     return (
       <React.Fragment>
         <Header />
@@ -29,7 +43,7 @@ class App extends React.Component {
             <Route path="/about/:id">
               <AboutMe />
             </Route>
-            <Route path="/proyects/:id">
+            <Route path="/proyects/:id" render={this.renderProyectDetail}>
               <Proyects proyects={this.state.proyects} />
             </Route>
             <Route path="/contact/:id">

@@ -12,6 +12,7 @@ function Footer() {
                 className="footerNavList__link"
                 href="https://twitter.com/ElvaSouto"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <i className="footerNavList__icon fab fa-twitter"></i>
               </a>
@@ -23,6 +24,7 @@ function Footer() {
                 className="footerNavList__link"
                 href="https://www.linkedin.com/in/elvasoutofernandez/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <i className="footerNavList__icon fab fa-linkedin-in"></i>
               </a>
@@ -34,6 +36,7 @@ function Footer() {
                 className="footerNavList__link"
                 href="https://github.com/elva-sf"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <i className="footerNavList__icon fab fa-github-alt"></i>
               </a>
