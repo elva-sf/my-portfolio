@@ -1,0 +1,43 @@
+.projectDetail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: $color-grapeOpacity;
+  &__imageProDet {
+    margin: 80px auto 10px;
+    width: 500px;
+    height: 300px;
+    border: solid 5px rgb(34, 10, 10);
+  }
+  &__titleProDet {
+    margin: 5px auto;
+    color: $color-darkPurple;
+    background-color: $color-shell;
+    padding: 5px;
+    font-size: 20px;
+  }
+  &__descriptProDet {
+    margin: 5px auto;
+    color: $color-darkPurple;
+  }
+  &__dateProDet {
+    margin: 5px auto;
+    color: $color-darkPurple;
+  }
+  &__linkProDet {
+    margin: 5px auto;
+    color: $color-jewel;
+    background-color: $color-mintOpacity;
+  }
+  &__backButton {
+    margin: 5px auto;
+  }
+  &__btnText {
+    color: $color-mint;
+    background-color: $color-darkPurple;
+    margin: 10px auto;
+  }
+}
+.fa-hand-point-left {
+  color: $color-mint;
+}
