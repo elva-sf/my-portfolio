@@ -1,6 +1,7 @@
 import React from "react";
 import "../stylesheet/Projects.scss";
 import { Link } from "react-router-dom";
+import PropTypes from "prop-types";
 
 function Projects(props) {
   return (
@@ -34,3 +35,10 @@ function Projects(props) {
   );
 }
 export default Projects;
+
+//PropTypes
+Projects.propTypes = {
+  id: PropTypes.string,
+  image: PropTypes.string,
+  name: PropTypes.string
+};

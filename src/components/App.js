@@ -9,6 +9,7 @@ import ProjectDetail from "./ProjectDetail";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import { Route, Switch } from "react-router-dom";
+import PropTypes from "prop-types";
 
 class App extends React.Component {
   constructor(props) {
@@ -27,6 +28,8 @@ class App extends React.Component {
     });
   }
 
+  //render
+
   renderProjectDetail(props) {
     const routeId = props.match.params.id;
     const project = this.state.projects.find(item => item.id === routeId);
@@ -36,7 +39,6 @@ class App extends React.Component {
       return <ProjectDetail project={project} />;
     }
   }
-
   render() {
     return (
       <React.Fragment>
@@ -68,3 +70,8 @@ class App extends React.Component {
 }
 
 export default App;
+
+//PropTypes
+ProjectDetail.propTypes = {
+  "match.params.id": PropTypes.number
+};

@@ -1,6 +1,7 @@
 import React from "react";
 import "../stylesheet/Projects.scss";
 import { Link } from "react-router-dom";
+import PropTypes from "prop-types";
 
 function ProjectDetail(props) {
   const { image, name, description, date, link } = props.project;
@@ -31,3 +32,12 @@ function ProjectDetail(props) {
   );
 }
 export default ProjectDetail;
+
+//PropTypes
+ProjectDetail.propTypes = {
+  image: PropTypes.string,
+  name: PropTypes.string,
+  description: PropTypes.string,
+  date: PropTypes.string,
+  link: PropTypes.string
+};
