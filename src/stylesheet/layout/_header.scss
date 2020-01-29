@@ -1,7 +1,10 @@
 .header {
   border: solid 2px;
+  position: fixed;
+  top: 0;
+  width: 100%;
   text-align: center;
-  background-color: rgb(126, 0, 78);
+  background-color: $color-posy;
 }
 .nav {
   /* background-color: antiquewhite; */
@@ -17,6 +20,6 @@
   &__link {
     margin: 15px;
     text-decoration: none;
-    color: white;
+    color: $color-shell;
   }
 }

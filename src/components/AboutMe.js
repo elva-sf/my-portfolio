@@ -1,5 +1,4 @@
 import React from "react";
-import "../stylesheet/AboutMe.scss";
 
 function AboutMe() {
   return (

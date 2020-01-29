@@ -1,0 +1,19 @@
+.section {
+  margin: 80px 50px 80px 50px;
+  text-align: center;
+  &__box {
+    background-color: $color-mintOpacity;
+    padding-bottom: 20px;
+  }
+  &__title {
+    color: $color-darkPurple;
+  }
+  &__text {
+    color: $color-darkPurple;
+    margin: 20px 40px;
+  }
+
+  &__list {
+    list-style: none;
+  }
+}

@@ -1,0 +1,22 @@
+.hero {
+  text-align: center;
+
+  &__boxHero {
+    margin: 90px auto;
+  }
+
+  &__titleHero {
+    color: $color-darkPurple;
+    font-size: 45px;
+  }
+  &__textHero {
+    color: $color-darkPurple;
+    font-size: 20px;
+  }
+  &__imageHero {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: solid 5px $color-darkPurple;
+  }
+}
