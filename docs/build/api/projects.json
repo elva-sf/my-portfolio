@@ -1,0 +1,67 @@
+{
+  "projects": [
+    {
+      "name": "#CodeLike<a>Girl",
+      "description": "Creación de página web colaborativa a modo CV online.",
+      "id": "01",
+      "image": "codeLikeAGirl.png",
+      "date": "Noviembre 2019",
+      "main-tool": "HTML5 & CSS3 (SASS)",
+      "link": "https://beta.adalab.es/project-promo-h-module-1-team-1-morning/"
+    },
+    {
+      "name": "Anonymous Blog",
+      "description": "Práctica de hacer una página web tipo blog.",
+      "id": "02",
+      "image": "anonymousBlog.png",
+      "date": "Noviembre 2019",
+      "main-tool": "HTML5 & CSS3 (SASS)",
+      "link": "https://beta.adalab.es/evaluacion-final-modulo-1-elva-sf/"
+    },
+    {
+      "name": "Awesome Profile Cards",
+      "description": "Creación de página web colaborativa para generar tarjetas de visita digitales.",
+      "id": "03",
+      "image": "aweProCards.png",
+      "date": "Diciembre 2019",
+      "main-tool": "JavaScript",
+      "link": "https://beta.adalab.es/project-promo-h-module-2-team-2-morning/"
+    },
+    {
+      "name": "Buscador de Series",
+      "description": "Práctica de hacer una página web tipo buscador de series utilizando JS.",
+      "id": "04",
+      "image": "buscadorSeries.png",
+      "date": "",
+      "main-tool": "JavaScript",
+      "link": "https://beta.adalab.es/modulo-2-evaluacion-final-elva-sf/"
+    },
+    {
+      "name": "Tarjetas Pokémon",
+      "description": "Práctica de pintar tarjetas obteniendo sus datos de una API.",
+      "id": "05",
+      "image": "listaDePokémon.png",
+      "date": "Diciembre 2019",
+      "main-tool": "React",
+      "link": "https://beta.adalab.es/modulo-3-evaluacion-intermedia-elva-sf/"
+    },
+    {
+      "name": "Awesome Profile Cards (REACT)",
+      "description": "Proyecto de código heredado. Migración del código del proyecto 'Awesome Profile Cards' a React.",
+      "id": "06",
+      "image": "aweProCardsReact.png",
+      "date": "Enero 2020",
+      "main-tool": "React",
+      "link": "https://beta.adalab.es/project-promo-h-module-3-team-1-morning-react/"
+    },
+    {
+      "name": "Buscador de personajes Rick&Morty",
+      "description": "Práctica de hacer una página web tipo buscador de personajes, que pinta sus tarjetas obteniendo sus datos de una API.",
+      "id": "07",
+      "image": "rick&morty.png",
+      "date": "Enero 2020",
+      "main-tool": "React",
+      "link": "https://beta.adalab.es/modulo-3-evaluacion-final-elva-sf/"
+    }
+  ]
+}
