@@ -73,5 +73,5 @@ export default App;
 
 //PropTypes
 ProjectDetail.propTypes = {
-  "match.params.id": PropTypes.number
+  routeId: PropTypes.number
 };

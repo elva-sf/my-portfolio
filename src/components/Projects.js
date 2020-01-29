@@ -38,7 +38,5 @@ export default Projects;
 
 //PropTypes
 Projects.propTypes = {
-  id: PropTypes.string,
-  image: PropTypes.string,
-  name: PropTypes.string
+  projects: PropTypes.arrayOf(PropTypes.object).isRequired
 };
