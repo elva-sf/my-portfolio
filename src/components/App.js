@@ -15,9 +15,11 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      projects: []
+      projects: [],
+      mainTool: "All"
     };
     this.renderProjectDetail = this.renderProjectDetail.bind(this);
+    this.handleChange = this.handleChange.bind(this);
   }
 
   componentDidMount() {
@@ -28,8 +30,23 @@ class App extends React.Component {
     });
   }
 
+  //event
+  handleChange(data) {
+    this.setState({
+      mainTool: data
+    });
+  }
+  // helper
+  filterProjects() {
+    return this.state.projects.filter(project => {
+      console.log(project);
+      return (
+        project.mainTool === this.state.mainTool ||
+        "All" === this.state.mainTool
+      );
+    });
+  }
   //render
-
   renderProjectDetail(props) {
     const routeId = props.match.params.id;
     const project = this.state.projects.find(item => item.id === routeId);
@@ -40,6 +57,8 @@ class App extends React.Component {
     }
   }
   render() {
+    console.log(this.state);
+
     return (
       <React.Fragment>
         <Header />
@@ -52,7 +71,11 @@ class App extends React.Component {
               <AboutMe />
             </Route>
             <Route path="/projects">
-              <Projects projects={this.state.projects} />
+              <Projects
+                projects={this.filterProjects()}
+                handleChange={this.handleChange}
+                mainTool={this.state.mainTool}
+              />
             </Route>
             <Route
               path="/projectdetail/:id"
