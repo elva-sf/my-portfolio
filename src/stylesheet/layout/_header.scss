@@ -7,26 +7,29 @@
   background-color: $color-posy;
 }
 .nav {
-  /* background-color: antiquewhite; */
 }
 .navList {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  @media all and (max-width: 320px) {
+  padding: 0;
+  @media all and (max-width: 450px) {
     flex-wrap: wrap;
   }
   &__item {
     list-style: none;
+    padding: 5px;
   }
   &__link {
-    margin: 15px;
+    margin: 0 15px;
     text-decoration: none;
     color: $color-shell;
-    @media all and (max-width: 320px) {
-      margin: 5px;
+    cursor: pointer;
+    @media all and (max-width: 450px) {
+      margin: 10px 10px;
       flex-wrap: wrap;
+      flex-direction: column;
     }
   }
 }

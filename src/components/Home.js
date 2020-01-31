@@ -1,5 +1,5 @@
 import React from "react";
-import photo from "../images/elvaGrey.jpeg";
+import photo from "../images/elvaBeige.png";
 
 function Home() {
   return (

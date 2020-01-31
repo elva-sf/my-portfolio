@@ -1,18 +1,19 @@
 html {
-  margin: 0;
   width: 100%;
   box-sizing: border-box;
 }
-
 body {
   margin: 0;
-  font-family: fantasy, "Helvetica Neue", sans-serif;
+  font-family: "Kaushan Script", cursive;
+  font-size: 20px;
   background-image: url("../images/heartBackground.png");
   background-position: center;
   background-size: cover;
+  background-position-x: -25px;
 
   @media all and (max-width: 320px) {
     background-color: aquamarine;
     background-size: contain;
+    background-position-x: center;
   }
 }

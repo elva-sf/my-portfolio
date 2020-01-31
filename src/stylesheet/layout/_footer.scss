@@ -2,7 +2,6 @@
   border: solid 2px;
   position: fixed;
   bottom: 0px;
-  height: 60px;
   width: 100vw;
   text-align: center;
   background-color: $color-posy;
@@ -12,15 +11,17 @@
   }
 }
 .footerNav {
-  /*  background-color: antiquewhite; */
+  padding: 0;
+  height: 40px;
 }
 .footerNavList {
   display: inline-flex;
   justify-content: center;
-  margin: 10px auto;
+  padding: 0;
 
   &__item {
     list-style: none;
+    padding: 0 10px;
   }
   &__link {
     text-decoration: none;

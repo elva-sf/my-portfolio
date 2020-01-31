@@ -17,7 +17,7 @@ function Projects(props) {
             const route = `/projectdetail/${id}`;
             return (
               <li className="projectList__itemPro" key={project.id}>
-                <Link to={route}>
+                <Link to={route} className="projectList__linkPro">
                   <img
                     className="projectList__imagePro"
                     src={require(`../images/${image}`)}

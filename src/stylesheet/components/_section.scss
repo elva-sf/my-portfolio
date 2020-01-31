@@ -1,9 +1,10 @@
 .section {
-  margin: 80px 50px 80px 50px;
+  margin: 80px 20px 80px 20px;
   text-align: center;
   &__box {
     background-color: $color-mintOpacity;
     padding-bottom: 20px;
+    padding-top: 20px;
   }
   &__title {
     color: $color-darkPurple;
@@ -11,8 +12,10 @@
   &__text {
     color: $color-darkPurple;
     margin: 20px 40px;
+    @media all and (max-width: 460px) {
+      font-size: 16px;
+    }
   }
-
   &__list {
     list-style: none;
   }
