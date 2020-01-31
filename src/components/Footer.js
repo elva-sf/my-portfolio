@@ -11,6 +11,7 @@ function Footer() {
               href="https://twitter.com/ElvaSouto"
               target="_blank"
               rel="noopener noreferrer"
+              title="Twitter"
             >
               <i className="footerNavList__icon fab fa-twitter"></i>
             </a>
@@ -23,6 +24,7 @@ function Footer() {
               href="https://www.linkedin.com/in/elvasoutofernandez/"
               target="_blank"
               rel="noopener noreferrer"
+              title="Linkdin"
             >
               <i className="footerNavList__icon fab fa-linkedin-in"></i>
             </a>
@@ -35,6 +37,7 @@ function Footer() {
               href="https://github.com/elva-sf"
               target="_blank"
               rel="noopener noreferrer"
+              title="GitHub"
             >
               <i className="footerNavList__icon fab fa-github-alt"></i>
             </a>

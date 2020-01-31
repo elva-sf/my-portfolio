@@ -26,6 +26,9 @@
     text-decoration: none;
     color: $color-shell;
     cursor: pointer;
+    &:hover {
+      color: $color-mint;
+    }
     @media all and (max-width: 450px) {
       margin: 10px 10px;
       flex-wrap: wrap;

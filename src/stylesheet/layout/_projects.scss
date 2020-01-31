@@ -4,8 +4,19 @@
   flex-wrap: wrap;
   justify-content: center;
   padding: 0;
+
   &__itemPro {
     margin: 10px;
+    &:hover {
+      background-color: $color-jewelOpacity;
+    }
+    &:hover .projectList__imagePro {
+      border-radius: 45%;
+      border: solid 5px $color-forest;
+    }
+    &:hover .projectList__titlePro {
+      color: $color-forest;
+    }
   }
   &__linkPro {
     text-decoration: none;
@@ -13,7 +24,7 @@
   &__imagePro {
     width: 300px;
     height: 200px;
-    border: solid 5px rgb(34, 10, 10);
+    border: solid 5px $color-darkPurple;
     @media all and (max-width: 320px) {
       width: 200px;
       height: 100px;
@@ -22,5 +33,6 @@
   &__titlePro {
     color: $color-jewel;
     background-color: $color-mintOpacity;
+    border-radius: 35%;
   }
 }

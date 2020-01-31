@@ -46,6 +46,10 @@
     color: $color-jewel;
     background-color: $color-mintOpacity;
     font-size: 14px;
+    &:hover {
+      color: $color-forest;
+      border-radius: 25%;
+    }
     @media all and (max-width: 460px) {
       font-size: 10px;
     }
@@ -60,6 +64,9 @@
     color: $color-mint;
     background-color: $color-darkPurple;
     cursor: pointer;
+    &:hover {
+      background-color: $color-jewel;
+    }
   }
 }
 .fa-hand-point-left {

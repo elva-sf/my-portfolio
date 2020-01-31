@@ -8,6 +8,7 @@
   }
   &__title {
     color: $color-darkPurple;
+    text-transform: uppercase;
   }
   &__text {
     color: $color-darkPurple;
@@ -18,5 +19,12 @@
   }
   &__list {
     list-style: none;
+  }
+  &__link {
+    &:hover {
+      color: $color-oxblood;
+      background-color: $color-jewelOpacity;
+      border-radius: 25%;
+    }
   }
 }
