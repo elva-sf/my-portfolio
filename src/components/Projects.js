@@ -3,6 +3,13 @@ import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 
 function Projects(props) {
+  console.log(props.mainTool);
+
+  function handleChange(ev) {
+    props.handleChange({
+      mainTool: ev.target.value
+    });
+  }
   return (
     <section className="projects section">
       <div className="section__box">
@@ -11,6 +18,18 @@ function Projects(props) {
           Muy "proud" de mis proyectos y ejercicios que he realizado hasta
           ahora!! :)
         </p>
+        <div>
+          <select
+            name="mainTool"
+            onChange={handleChange}
+            value={props.mainTool.mainTool}
+          >
+            <option value="All">Todos</option>
+            <option value="HTML5 & CSS3 (SASS)">HTML5 & CSS3 (SASS)</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="React">React</option>
+          </select>
+        </div>
         <ul className="section__list projectList">
           {props.projects.map(project => {
             const { id, image, name } = project;
