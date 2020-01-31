@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "./static/css/main.7fa56be3.chunk.css",
-    "main.js": "./static/js/main.a2e2f5cb.chunk.js",
-    "main.js.map": "./static/js/main.a2e2f5cb.chunk.js.map",
+    "main.css": "./static/css/main.19e5863e.chunk.css",
+    "main.js": "./static/js/main.907102db.chunk.js",
+    "main.js.map": "./static/js/main.907102db.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.e34fff3e.js",
     "runtime-main.js.map": "./static/js/runtime-main.e34fff3e.js.map",
     "static/js/2.77def372.chunk.js": "./static/js/2.77def372.chunk.js",
     "static/js/2.77def372.chunk.js.map": "./static/js/2.77def372.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.f72a0d2e4c7ebc1bf8a4add485ed5e66.js": "./precache-manifest.f72a0d2e4c7ebc1bf8a4add485ed5e66.js",
+    "precache-manifest.2b8853e7cb5012de80c6a0d390f11a96.js": "./precache-manifest.2b8853e7cb5012de80c6a0d390f11a96.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.7fa56be3.chunk.css.map": "./static/css/main.7fa56be3.chunk.css.map",
+    "static/css/main.19e5863e.chunk.css.map": "./static/css/main.19e5863e.chunk.css.map",
     "static/js/2.77def372.chunk.js.LICENSE": "./static/js/2.77def372.chunk.js.LICENSE",
     "static/media/anonymousBlog.png": "./static/media/anonymousBlog.03b5c05c.png",
     "static/media/aweProCards.png": "./static/media/aweProCards.8fc6db14.png",
@@ -18,7 +18,7 @@
     "static/media/blueWood.jpg": "./static/media/blueWood.916499f6.jpg",
     "static/media/buscadorSeries.png": "./static/media/buscadorSeries.ef1c0343.png",
     "static/media/codeLikeAGirl.png": "./static/media/codeLikeAGirl.1d795191.png",
-    "static/media/elva-cv.jpeg": "./static/media/elva-cv.1a3f6751.jpeg",
+    "static/media/elvaBeige.png": "./static/media/elvaBeige.01e1885d.png",
     "static/media/elvaGrey.jpeg": "./static/media/elvaGrey.80963d29.jpeg",
     "static/media/fairyBackground.png": "./static/media/fairyBackground.c7f3e7e1.png",
     "static/media/heartBackground.png": "./static/media/heartBackground.013e894a.png",
@@ -28,7 +28,7 @@
   "entrypoints": [
     "static/js/runtime-main.e34fff3e.js",
     "static/js/2.77def372.chunk.js",
-    "static/css/main.7fa56be3.chunk.css",
-    "static/js/main.a2e2f5cb.chunk.js"
+    "static/css/main.19e5863e.chunk.css",
+    "static/js/main.907102db.chunk.js"
   ]
 }
