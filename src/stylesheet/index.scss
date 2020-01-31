@@ -1,11 +1,11 @@
 html {
   margin: 0;
-  width: 100vw;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  box-sizing: border-box;
   font-family: fantasy, "Helvetica Neue", sans-serif;
   background-image: url("../images/heartBackground.png");
   background-position: center;

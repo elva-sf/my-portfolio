@@ -7,13 +7,15 @@
     margin: 80px auto 10px;
     width: 500px;
     height: 300px;
-    border: solid 5px rgb(34, 10, 10);
+    border: solid 5px $color-darkPurple;
   }
   &__titleProDet {
     margin: 5px auto;
     color: $color-darkPurple;
     background-color: $color-shell;
-    padding: 5px;
+    border: solid 1px $color-darkPurple;
+    border-radius: 35%;
+    padding: 3px;
     font-size: 20px;
   }
   &__descriptProDet {
@@ -26,11 +28,12 @@
   }
   &__linkProDet {
     margin: 5px auto;
+    padding: 5px;
     color: $color-jewel;
     background-color: $color-mintOpacity;
   }
   &__backButton {
-    margin: 5px auto;
+    margin: 5px auto 10px;
   }
   &__btnText {
     color: $color-mint;
