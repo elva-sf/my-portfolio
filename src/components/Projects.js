@@ -3,12 +3,9 @@ import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
 
 function Projects(props) {
-  console.log(props.mainTool);
-
+  const { mainTool } = props.mainTool;
   function handleChange(ev) {
-    props.handleChange({
-      mainTool: ev.target.value
-    });
+    props.handleChange(ev.target.value);
   }
   return (
     <section className="projects section">
@@ -19,11 +16,7 @@ function Projects(props) {
           ahora!! :)
         </p>
         <div>
-          <select
-            name="mainTool"
-            onChange={handleChange}
-            value={props.mainTool.mainTool}
-          >
+          <select name="mainTool" onChange={handleChange} value={mainTool}>
             <option value="All">Todos</option>
             <option value="HTML5 & CSS3 (SASS)">HTML5 & CSS3 (SASS)</option>
             <option value="JavaScript">JavaScript</option>
@@ -56,5 +49,6 @@ export default Projects;
 
 //PropTypes
 Projects.propTypes = {
-  projects: PropTypes.arrayOf(PropTypes.object).isRequired
+  projects: PropTypes.arrayOf(PropTypes.object).isRequired,
+  mainTool: PropTypes.string
 };
