@@ -6,7 +6,7 @@
       "id": "01",
       "image": "codeLikeAGirl.png",
       "date": "Noviembre 2019",
-      "main-tool": "HTML5 & CSS3 (SASS)",
+      "mainTool": "HTML5 & CSS3 (SASS)",
       "link": "https://beta.adalab.es/project-promo-h-module-1-team-1-morning/"
     },
     {
@@ -15,7 +15,7 @@
       "id": "02",
       "image": "anonymousBlog.png",
       "date": "Noviembre 2019",
-      "main-tool": "HTML5 & CSS3 (SASS)",
+      "mainTool": "HTML5 & CSS3 (SASS)",
       "link": "https://beta.adalab.es/evaluacion-final-modulo-1-elva-sf/"
     },
     {
@@ -24,7 +24,7 @@
       "id": "03",
       "image": "aweProCards.png",
       "date": "Diciembre 2019",
-      "main-tool": "JavaScript",
+      "mainTool": "JavaScript",
       "link": "https://beta.adalab.es/project-promo-h-module-2-team-2-morning/"
     },
     {
@@ -33,7 +33,7 @@
       "id": "04",
       "image": "buscadorSeries.png",
       "date": "",
-      "main-tool": "JavaScript",
+      "mainTool": "JavaScript",
       "link": "https://beta.adalab.es/modulo-2-evaluacion-final-elva-sf/"
     },
     {
@@ -42,7 +42,7 @@
       "id": "05",
       "image": "listaDePokémon.png",
       "date": "Diciembre 2019",
-      "main-tool": "React",
+      "mainTool": "React",
       "link": "https://beta.adalab.es/modulo-3-evaluacion-intermedia-elva-sf/"
     },
     {
@@ -51,7 +51,7 @@
       "id": "06",
       "image": "aweProCardsReact.png",
       "date": "Enero 2020",
-      "main-tool": "React",
+      "mainTool": "React",
       "link": "https://beta.adalab.es/project-promo-h-module-3-team-1-morning-react/"
     },
     {
@@ -60,7 +60,7 @@
       "id": "07",
       "image": "rick&morty.png",
       "date": "Enero 2020",
-      "main-tool": "React",
+      "mainTool": "React",
       "link": "https://beta.adalab.es/modulo-3-evaluacion-final-elva-sf/"
     }
   ]

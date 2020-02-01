@@ -39,7 +39,6 @@ class App extends React.Component {
   // helper
   filterProjects() {
     return this.state.projects.filter(project => {
-      console.log(project);
       return (
         project.mainTool === this.state.mainTool ||
         "All" === this.state.mainTool
@@ -57,8 +56,6 @@ class App extends React.Component {
     }
   }
   render() {
-    console.log(this.state);
-
     return (
       <React.Fragment>
         <Header />
