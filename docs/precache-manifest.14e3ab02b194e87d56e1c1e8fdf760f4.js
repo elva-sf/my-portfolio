@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d8329e3d30906814c9ccec228b471c0d",
+    "revision": "e7d5c58f796c76bf0906286b689d2daf",
     "url": "./index.html"
   },
   {
-    "revision": "3e4aafd745cbf0b8d26a",
-    "url": "./static/css/main.64b00523.chunk.css"
+    "revision": "5822971d78ec8dc94811",
+    "url": "./static/css/main.c174e58e.chunk.css"
   },
   {
     "revision": "cf48c58e688c70c646fc",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/js/2.77def372.chunk.js.LICENSE"
   },
   {
-    "revision": "3e4aafd745cbf0b8d26a",
-    "url": "./static/js/main.3ad9e77e.chunk.js"
+    "revision": "5822971d78ec8dc94811",
+    "url": "./static/js/main.6e886c1f.chunk.js"
   },
   {
     "revision": "8607f3848100444edd79",
@@ -36,10 +36,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/aweProCardsReact.7c31090c.png"
   },
   {
-    "revision": "916499f63785af3a326ab9cd674bb8bd",
-    "url": "./static/media/blueWood.916499f6.jpg"
-  },
-  {
     "revision": "ef1c0343edf6acd8f598f3899005e01d",
     "url": "./static/media/buscadorSeries.ef1c0343.png"
   },
@@ -52,20 +48,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/elvaBeige.01e1885d.png"
   },
   {
-    "revision": "80963d2962ebbd1d1c489a12cc8cbae6",
-    "url": "./static/media/elvaGrey.80963d29.jpeg"
-  },
-  {
-    "revision": "c7f3e7e1c78286ed367515018dfb0fb8",
-    "url": "./static/media/fairyBackground.c7f3e7e1.png"
-  },
-  {
     "revision": "013e894a2d27d0f9a0020957767d6366",
     "url": "./static/media/heartBackground.013e894a.png"
   },
   {
     "revision": "1c2f9f9ddfe4f1f20fbf83584c771da3",
     "url": "./static/media/listaDePokémon.1c2f9f9d.png"
+  },
+  {
+    "revision": "5647e8f5712336510bee3fb09b164c4f",
+    "url": "./static/media/logoMyportfolioESF.5647e8f5.jpg"
+  },
+  {
+    "revision": "528d28e685314121f646b76cc257f965",
+    "url": "./static/media/myportfolioLaptop.528d28e6.png"
+  },
+  {
+    "revision": "129ed0d6906d8b5e82f9cec5555ffc50",
+    "url": "./static/media/myportfolioMobile.129ed0d6.png"
+  },
+  {
+    "revision": "607f01675051ac4b9e6f27f0c5ab3200",
+    "url": "./static/media/myportfolioTablet.607f0167.png"
   },
   {
     "revision": "e63829dcfa3d8e43c3902242aa16feeb",

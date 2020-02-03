@@ -1,34 +1,35 @@
 {
   "files": {
-    "main.css": "./static/css/main.64b00523.chunk.css",
-    "main.js": "./static/js/main.3ad9e77e.chunk.js",
-    "main.js.map": "./static/js/main.3ad9e77e.chunk.js.map",
+    "main.css": "./static/css/main.c174e58e.chunk.css",
+    "main.js": "./static/js/main.6e886c1f.chunk.js",
+    "main.js.map": "./static/js/main.6e886c1f.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.e34fff3e.js",
     "runtime-main.js.map": "./static/js/runtime-main.e34fff3e.js.map",
     "static/js/2.77def372.chunk.js": "./static/js/2.77def372.chunk.js",
     "static/js/2.77def372.chunk.js.map": "./static/js/2.77def372.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.95f39f235fa5463598414947338459cb.js": "./precache-manifest.95f39f235fa5463598414947338459cb.js",
+    "precache-manifest.14e3ab02b194e87d56e1c1e8fdf760f4.js": "./precache-manifest.14e3ab02b194e87d56e1c1e8fdf760f4.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/main.64b00523.chunk.css.map": "./static/css/main.64b00523.chunk.css.map",
+    "static/css/main.c174e58e.chunk.css.map": "./static/css/main.c174e58e.chunk.css.map",
     "static/js/2.77def372.chunk.js.LICENSE": "./static/js/2.77def372.chunk.js.LICENSE",
     "static/media/anonymousBlog.png": "./static/media/anonymousBlog.03b5c05c.png",
     "static/media/aweProCards.png": "./static/media/aweProCards.8fc6db14.png",
     "static/media/aweProCardsReact.png": "./static/media/aweProCardsReact.7c31090c.png",
-    "static/media/blueWood.jpg": "./static/media/blueWood.916499f6.jpg",
     "static/media/buscadorSeries.png": "./static/media/buscadorSeries.ef1c0343.png",
     "static/media/codeLikeAGirl.png": "./static/media/codeLikeAGirl.1d795191.png",
     "static/media/elvaBeige.png": "./static/media/elvaBeige.01e1885d.png",
-    "static/media/elvaGrey.jpeg": "./static/media/elvaGrey.80963d29.jpeg",
-    "static/media/fairyBackground.png": "./static/media/fairyBackground.c7f3e7e1.png",
     "static/media/heartBackground.png": "./static/media/heartBackground.013e894a.png",
     "static/media/listaDePokémon.png": "./static/media/listaDePokémon.1c2f9f9d.png",
+    "static/media/logoMyportfolioESF.jpg": "./static/media/logoMyportfolioESF.5647e8f5.jpg",
+    "static/media/myportfolioLaptop.png": "./static/media/myportfolioLaptop.528d28e6.png",
+    "static/media/myportfolioMobile.png": "./static/media/myportfolioMobile.129ed0d6.png",
+    "static/media/myportfolioTablet.png": "./static/media/myportfolioTablet.607f0167.png",
     "static/media/rick&morty.png": "./static/media/rick&morty.e63829dc.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e34fff3e.js",
     "static/js/2.77def372.chunk.js",
-    "static/css/main.64b00523.chunk.css",
-    "static/js/main.3ad9e77e.chunk.js"
+    "static/css/main.c174e58e.chunk.css",
+    "static/js/main.6e886c1f.chunk.js"
   ]
 }

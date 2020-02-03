@@ -28,3 +28,7 @@ La estructura de carpetas se divide en:
 - stylesheet: contiene a su vez otra estructura de carpetas para organizar los ficheros de las hojas de estilos realizadas con scss/sass.
 
 Además, en la carpeta public, he incorporado una carpeta api para **crear una API** mediante un **fichero JSON** que contiene un array "projects", que a su vez contiene objetos con la información de cada proyecto: "name", "description", "id", "image", "date", "mainTool" y "link".
+
+![Maqueta móvil](_src/images/myportfolioMobile.png)
+![Maqueta tablet](_src/images/myportfolioTablet.png)  
+![Maqueta ordenador](_src/images/myportfolioLaptop.png)
