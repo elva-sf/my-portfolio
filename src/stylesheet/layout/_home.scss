@@ -1,10 +1,12 @@
 .hero {
   text-align: center;
+  margin-top: 90px;
+  @media all and (max-width: 750px) {
+    margin-top: 100px;
+  }
+
   &__boxHero {
-    margin: 90px auto;
-    @media all and (max-width: 396px) {
-      margin: 120px auto 0 auto;
-    }
+    margin: 0;
   }
   &__titleHero {
     color: $color-darkPurple;
@@ -32,11 +34,11 @@
       animation: none;
     }
     @media all and (max-width: 750px) {
-      margin-top: 100px;
       background-color: $color-shell;
     }
   }
   &__textHero {
+    margin: 0;
     color: $color-darkPurple;
     font-size: 30px;
     animation-name: boost;
@@ -60,6 +62,7 @@
     }
   }
   &__imageHero {
+    margin: 5px auto 10px auto;
     width: 250px;
     height: 250px;
     border-radius: 50%;

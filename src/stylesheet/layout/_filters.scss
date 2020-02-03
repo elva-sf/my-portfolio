@@ -1,0 +1,14 @@
+.filterForm {
+  &__select {
+    border: solid $color-jewel;
+    border-radius: 8%;
+    background-color: $color-shellOpacity;
+    color: $color-jewel;
+    font-weight: bold;
+    font-style: oblique;
+  }
+  &__option {
+    background-color: $color-mint;
+    border: solid $color-jewel;
+  }
+}

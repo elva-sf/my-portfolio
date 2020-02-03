@@ -4,16 +4,30 @@
   justify-content: center;
   text-align: center;
   background-color: $color-grapeOpacity;
-  margin-bottom: 65px;
+  height: 100vh;
+  @media all and (max-width: 460px) {
+    /* margin: 0 auto 0px auto; */
+  }
+
   &__imageProDet {
-    margin: 83px auto 10px;
+    margin: 15px auto 10px auto;
     width: 450px;
     height: 250px;
     border: solid 5px $color-darkPurple;
-    @media all and (max-width: 460px) {
-      margin: 130px auto 10px auto;
+    @media all and (max-width: 360px) {
+      margin: 20px auto 10px auto;
+      width: 200px;
+      height: 100px;
+    }
+    @media all and (min-width: 360px) and (max-width: 500px) {
+      margin: 50px auto 10px auto;
       width: 250px;
       height: 150px;
+    }
+    @media (max-width: 1020px) and (orientation: landscape) {
+      margin: 10px auto 10px auto;
+      width: 200px;
+      height: 100px;
     }
   }
   &__titleProDet {
@@ -24,12 +38,20 @@
     border-radius: 35%;
     padding: 3px;
     font-size: 20px;
+    @media (max-width: 1020px) and (orientation: landscape) {
+      margin: 2px auto;
+      font-size: 10px;
+    }
   }
   &__descriptProDet {
     margin: 5px auto;
     color: $color-darkPurple;
     @media all and (max-width: 460px) {
       font-size: 16px;
+    }
+    @media (max-width: 1020px) and (orientation: landscape) {
+      font-size: 10px;
+      margin: 2px auto;
     }
   }
   &__dateProDet {
@@ -38,6 +60,9 @@
     font-size: 16px;
     @media all and (max-width: 460px) {
       font-size: 10px;
+    }
+    @media (max-width: 1020px) and (orientation: landscape) {
+      font-size: 8px;
     }
   }
   &__linkProDet {
@@ -52,19 +77,28 @@
     @media all and (max-width: 460px) {
       font-size: 10px;
     }
+    @media (max-width: 1020px) and (orientation: landscape) {
+      font-size: 5px;
+    }
   }
   &__backButton {
-    margin: 25px auto 20px auto;
-    @media all and (max-width: 460px) {
-      margin: 5px auto 20px auto;
+    margin: 25px auto 0px auto;
+    @media (max-width: 1020px) and (orientation: landscape) {
+      margin: 2px auto 0px auto;
     }
+    /*  @media all and (max-width: 460px) {
+      margin: 5px auto 20px auto;
+    } */
   }
   &__btnText {
     color: $color-mint;
-    background-color: $color-darkPurple;
+    background-color: $color-posy;
     cursor: pointer;
     &:hover {
       background-color: $color-jewel;
+    }
+    @media (max-width: 1020px) and (orientation: landscape) {
+      font-size: 7px;
     }
   }
 }
