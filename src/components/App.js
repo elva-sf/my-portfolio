@@ -21,7 +21,6 @@ class App extends React.Component {
     this.renderProjectDetail = this.renderProjectDetail.bind(this);
     this.handleChange = this.handleChange.bind(this);
   }
-
   componentDidMount() {
     apiProjects().then(projects => {
       this.setState({
@@ -29,12 +28,9 @@ class App extends React.Component {
       });
     });
   }
-
   //event
   handleChange(data) {
-    this.setState({
-      mainTool: data
-    });
+    this.setState(data);
   }
   // helper
   filterProjects() {
@@ -88,7 +84,6 @@ class App extends React.Component {
     );
   }
 }
-
 export default App;
 
 //PropTypes
