@@ -64,47 +64,6 @@
       background-color: $color-shell;
     }
   }
-  &__textHero {
-    margin: 0;
-    color: $color-darkPurple;
-    font-size: 30px;
-    animation-name: boost;
-    animation-duration: 2s;
-    @keyframes boost {
-      0% {
-        opacity: 0.5;
-        font-size: 25px;
-      }
-      50% {
-        opacity: 0.75;
-        font-size: 35px;
-      }
-      100% {
-        opacity: 1;
-        font-size: 30px;
-      }
-    }
-    @media all and (max-width: 320px) {
-      font-size: 16px;
-    }
-    @media (max-width: 850px) and (orientation: landscape) {
-      font-size: 15px;
-      @keyframes boost {
-        0% {
-          opacity: 0.5;
-          font-size: 10px;
-        }
-        50% {
-          opacity: 0.75;
-          font-size: 20px;
-        }
-        100% {
-          opacity: 1;
-          font-size: 15px;
-        }
-      }
-    }
-  }
   &__imageHero {
     margin: 5px auto 10px auto;
     width: 250px;
@@ -126,13 +85,68 @@
         transform: scale(1);
       }
     }
-    @media all and (max-width: 320px) {
+    @media all and (max-width: 375px) {
       width: 150px;
       height: 150px;
     }
     @media (max-width: 850px) and (orientation: landscape) {
       width: 100px;
       height: 100px;
+    }
+  }
+  &__textHero {
+    margin: 0;
+    color: $color-darkPurple;
+    font-size: 30px;
+    animation-name: boost;
+    animation-duration: 2s;
+    @keyframes boost {
+      0% {
+        opacity: 0.5;
+        font-size: 25px;
+      }
+      50% {
+        opacity: 0.75;
+        font-size: 35px;
+      }
+      100% {
+        opacity: 1;
+        font-size: 30px;
+      }
+    }
+    @media all and (max-width: 375px) {
+      font-size: 16px;
+      @keyframes boost {
+        0% {
+          opacity: 0.5;
+          font-size: 10px;
+        }
+        50% {
+          opacity: 0.75;
+          font-size: 20px;
+        }
+        100% {
+          opacity: 1;
+          font-size: 16px;
+        }
+      }
+    }
+    @media (max-width: 850px) and (orientation: landscape) {
+      font-size: 15px;
+      @keyframes boost {
+        0% {
+          opacity: 0.5;
+          font-size: 10px;
+        }
+        50% {
+          opacity: 0.75;
+          font-size: 20px;
+        }
+        100% {
+          opacity: 1;
+          font-size: 15px;
+        }
+      }
     }
   }
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import PropTypes from "prop-types";
 
 function Filters(props) {
   function handleChange(ev) {
@@ -32,3 +33,8 @@ function Filters(props) {
   );
 }
 export default Filters;
+
+//PropTypes
+Filters.propTypes = {
+  mainTool: PropTypes.string.isRequired
+};

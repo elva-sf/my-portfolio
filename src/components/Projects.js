@@ -39,6 +39,5 @@ export default Projects;
 
 //PropTypes
 Projects.propTypes = {
-  projects: PropTypes.arrayOf(PropTypes.object).isRequired,
-  mainTool: PropTypes.string
+  projects: PropTypes.arrayOf(PropTypes.object).isRequired
 };
