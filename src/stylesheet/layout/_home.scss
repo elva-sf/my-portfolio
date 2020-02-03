@@ -1,10 +1,21 @@
 .hero {
   text-align: center;
-  margin-top: 90px;
-  @media all and (max-width: 750px) {
+  margin-top: 100px;
+  @media (min-width: 321px) and (max-width: 750px) {
+    margin-top: 125px;
+  }
+  @media (min-width: 751px) and (max-width: 1000px) {
+    margin-top: 270px;
+  }
+  @media (min-width: 1001px) and (max-width: 1024px) {
+    margin-top: 350px;
+  }
+  @media (max-width: 850px) and (orientation: landscape) {
+    margin-top: 55px;
+  }
+  @media (min-width: 851px) and (orientation: landscape) {
     margin-top: 100px;
   }
-
   &__boxHero {
     margin: 0;
   }
@@ -28,12 +39,28 @@
         font-size: 45px;
       }
     }
-
+    @media (max-width: 850px) and (orientation: landscape) {
+      font-size: 25px;
+      @keyframes appear {
+        0% {
+          opacity: 0.5;
+          font-size: 15px;
+        }
+        50% {
+          opacity: 0.75;
+          font-size: 20px;
+        }
+        100% {
+          opacity: 1;
+          font-size: 25px;
+        }
+      }
+    }
     @media all and (max-width: 396px) {
       font-size: 25px;
       animation: none;
     }
-    @media all and (max-width: 750px) {
+    @media all and (max-width: 850px) {
       background-color: $color-shell;
     }
   }
@@ -60,6 +87,23 @@
     @media all and (max-width: 320px) {
       font-size: 16px;
     }
+    @media (max-width: 850px) and (orientation: landscape) {
+      font-size: 15px;
+      @keyframes boost {
+        0% {
+          opacity: 0.5;
+          font-size: 10px;
+        }
+        50% {
+          opacity: 0.75;
+          font-size: 20px;
+        }
+        100% {
+          opacity: 1;
+          font-size: 15px;
+        }
+      }
+    }
   }
   &__imageHero {
     margin: 5px auto 10px auto;
@@ -85,6 +129,10 @@
     @media all and (max-width: 320px) {
       width: 150px;
       height: 150px;
+    }
+    @media (max-width: 850px) and (orientation: landscape) {
+      width: 100px;
+      height: 100px;
     }
   }
 }
