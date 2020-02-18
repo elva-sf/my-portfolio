@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "./static/css/main.c174e58e.chunk.css",
-    "main.js": "./static/js/main.6e886c1f.chunk.js",
-    "main.js.map": "./static/js/main.6e886c1f.chunk.js.map",
+    "main.js": "./static/js/main.33a4f4b5.chunk.js",
+    "main.js.map": "./static/js/main.33a4f4b5.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.e34fff3e.js",
     "runtime-main.js.map": "./static/js/runtime-main.e34fff3e.js.map",
     "static/js/2.77def372.chunk.js": "./static/js/2.77def372.chunk.js",
     "static/js/2.77def372.chunk.js.map": "./static/js/2.77def372.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.14e3ab02b194e87d56e1c1e8fdf760f4.js": "./precache-manifest.14e3ab02b194e87d56e1c1e8fdf760f4.js",
+    "precache-manifest.0e87fa9ba0d6fe5d723569fb15ff7fe8.js": "./precache-manifest.0e87fa9ba0d6fe5d723569fb15ff7fe8.js",
     "service-worker.js": "./service-worker.js",
     "static/css/main.c174e58e.chunk.css.map": "./static/css/main.c174e58e.chunk.css.map",
     "static/js/2.77def372.chunk.js.LICENSE": "./static/js/2.77def372.chunk.js.LICENSE",
@@ -24,12 +24,13 @@
     "static/media/myportfolioLaptop.png": "./static/media/myportfolioLaptop.528d28e6.png",
     "static/media/myportfolioMobile.png": "./static/media/myportfolioMobile.129ed0d6.png",
     "static/media/myportfolioTablet.png": "./static/media/myportfolioTablet.607f0167.png",
-    "static/media/rick&morty.png": "./static/media/rick&morty.e63829dc.png"
+    "static/media/rick&morty.png": "./static/media/rick&morty.e63829dc.png",
+    "static/media/shoppingCart.png": "./static/media/shoppingCart.3d6a60f3.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e34fff3e.js",
     "static/js/2.77def372.chunk.js",
     "static/css/main.c174e58e.chunk.css",
-    "static/js/main.6e886c1f.chunk.js"
+    "static/js/main.33a4f4b5.chunk.js"
   ]
 }

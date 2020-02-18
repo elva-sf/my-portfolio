@@ -62,6 +62,15 @@
       "date": "Enero 2020",
       "mainTool": "React",
       "link": "https://beta.adalab.es/modulo-3-evaluacion-final-elva-sf/"
+    },
+    {
+      "name": "Shopping Cart",
+      "description": "Challenge de migración de código heredado HTML&CSS a React, implementando la lógica necesaria para hacer un carrito de la compra funcional.",
+      "id": "08",
+      "image": "shoppingCart.png",
+      "date": "Febrero 2020",
+      "mainTool": "React",
+      "link": "https://elva-sf.github.io/shopping-cart/"
     }
   ]
 }
